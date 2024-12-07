@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/33698389/208787588-227e2558-0054-4bad-
  - SoX 
 
 ## How this works?
-They're two scripts, `alram.sh` and `alarm.sh`. `alram.sh` administrate the information readed from `~/.notis`. The `~/.notis` file in the end
+There are two scripts, `alram.sh` and `alarm.sh`. `alram.sh` administrate the information readed from `~/.notis`. The `~/.notis` file in the end
 of each line has an operator that designs the state of this notification. If it hasn't nothing written, then the alarm wasn't executed, so
 proceed to open an `alarm.sh` instance with the info from `~/.notis` and write at the end of the line a `[]` so, when `alram.sh` read the square
 in that line, it doesn't start a new instance of this alarm.
